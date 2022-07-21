@@ -3,7 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Projects/LamontSky/app/src/main/res/drawable/btn_back.xml" value="0.239" />
+        <entry key="..\:/Android Projects/LamontSky/app/src/main/res/drawable/ic_logo.xml" value="0.239" />
+        <entry key="..\:/Android Projects/LamontSky/app/src/main/res/drawable/register_back.xml" value="0.239" />
+        <entry key="..\:/Android Projects/LamontSky/app/src/main/res/drawable/register_btn_back.xml" value="0.239" />
+        <entry key="..\:/Android Projects/LamontSky/app/src/main/res/drawable/splash_back.xml" value="0.239" />
+        <entry key="..\:/Android Projects/LamontSky/app/src/main/res/drawable/top_back.xml" value="0.239" />
         <entry key="..\:/Android Projects/LamontSky/app/src/main/res/layout/activity_main.xml" value="0.3546875" />
+        <entry key="..\:/Android Projects/LamontSky/app/src/main/res/layout/fragment_sign_in.xml" value="0.264" />
+        <entry key="..\:/Android Projects/LamontSky/app/src/main/res/layout/fragment_sign_up.xml" value="0.24166666666666667" />
+        <entry key="..\:/Android Projects/LamontSky/app/src/main/res/layout/fragment_splash.xml" value="0.3546875" />
       </map>
     </option>
   </component>
