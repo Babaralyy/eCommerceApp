@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.MainFragment">
+
+  <LinearLayout
+      android:id="@+id/headerLay"
+      android:layout_width="match_parent"
+      android:layout_height="130dp"
+      android:background="@drawable/main_top_back"
+      android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/nav_icon" />
+  </LinearLayout>
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/headerLay"
+      android:layout_marginTop="-20dp"
+      android:layout_marginStart="40dp"
+      android:layout_marginEnd="40dp"
+      android:elevation="5dp"
+      android:padding="5dp"
+      android:background="@drawable/search_back"
+      android:drawableEnd="@drawable/ic_search"
+      android:hint="@string/search_for_a_product"
+      android:minHeight="40dp" />
+
+  <com.google.android.material.bottomnavigation.BottomNavigationView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      app:menu="@menu/bottom_nav_menu"
+      />
+
+</RelativeLayout>
