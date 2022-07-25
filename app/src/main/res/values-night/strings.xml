@@ -20,4 +20,14 @@
     <string name="orders">Orders</string>
     <string name="profile">Profile</string>
     <string name="search_for_a_product">Search for a product</string>
+    <string name="favorite">Favorite</string>
+    <string name="share_us">Share Us</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="sign_out">Sign out</string>
+    <string name="dji_mini_3_pro">Dji Mini 3 Pro</string>
+    <string name="product_details">Product Details</string>
+    <string name="airships">Airships</string>
+    <string name="description">Description</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="please_wait">Please wait...</string>
 </resources>
