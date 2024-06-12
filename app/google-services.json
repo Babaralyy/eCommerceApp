@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "413735150769",
+    "project_id": "lamont-sky",
+    "storage_bucket": "lamont-sky.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413735150769:android:5e2c01bfb86caecdec6e90",
+        "android_client_info": {
+          "package_name": "com.codecoy.lamontsky"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413735150769-dedpdq6oephtqbh7min0l2jgklkd13kg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "your_api_key"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413735150769-dedpdq6oephtqbh7min0l2jgklkd13kg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

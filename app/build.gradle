@@ -57,6 +57,13 @@ dependencies {
     // Testing Navigation
     androidTestImplementation("androidx.navigation:navigation-testing:2.5.0")
 
+
+    // ViewModel
+    implementation("androidx.lifecycle:lifecycle-viewmodel:2.5.0")
+    // LiveData
+    implementation("androidx.lifecycle:lifecycle-livedata:2.5.0")
+
+
     //Circular ImageView
     implementation 'com.mikhaellopez:circularimageview:4.3.0'
 

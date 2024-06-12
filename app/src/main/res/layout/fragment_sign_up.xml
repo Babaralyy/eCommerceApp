@@ -78,7 +78,7 @@
                         android:padding="1dp">
 
                         <TextView
-                            android:id="@+id/btnSignInBack"
+                            android:id="@+id/tvSignInBack"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
@@ -90,7 +90,7 @@
                             android:textColor="@color/primaryColor" />
 
                         <TextView
-                            android:id="@+id/btnSigUp"
+                            android:id="@+id/tvSigUp"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
@@ -222,7 +222,7 @@
 
 
                     <com.google.android.material.button.MaterialButton
-                        android:id="@+id/btnSignIn"
+                        android:id="@+id/btnSignUp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="30dp"
@@ -230,7 +230,7 @@
                         android:paddingEnd="40dp"
                         android:layout_gravity="center"
                         android:background="@drawable/btn_back"
-                        android:text="@string/sign_in" />
+                        android:text="@string/sign_up" />
 
                     <LinearLayout
                         android:layout_width="wrap_content"

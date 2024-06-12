@@ -8,11 +8,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.codecoy.lamontsky.constant.Constant
 import com.codecoy.lamontsky.databinding.FragmentSplashBinding
+import com.codecoy.lamontsky.datamodels.SignInData
 
 
 class SplashFragment : Fragment() {
 
+    private var signInData: SignInData? = null
 
     private lateinit var mBinding: FragmentSplashBinding
     override fun onCreateView(
@@ -30,9 +33,15 @@ class SplashFragment : Fragment() {
 
         Handler(Looper.getMainLooper()).postDelayed({
 
-            val action = SplashFragmentDirections.actionSplashFragmentToSignInFragment()
-            findNavController().navigate(action)
+            signInData = Constant.fetchSignInInfoFromPref(requireContext(),"userInfo")
+            if (signInData != null){
+                val action = SplashFragmentDirections.actionSplashFragmentToMainFragment()
+                findNavController().navigate(action)
 
+            } else {
+                val action = SplashFragmentDirections.actionSplashFragmentToSignInFragment()
+                findNavController().navigate(action)
+            }
 
         }, 1000)
 
